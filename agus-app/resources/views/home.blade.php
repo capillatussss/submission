@@ -1,36 +1,7 @@
 @extends('layout')
 
 @section('content')
-    <!-- Card Section -->
-    <section class="py-6">
-        <div class="container mx-auto xl:w-8/12 px-4 xl:px-0">
-            <div class="flex flex-col xl:flex-row gap-4">
-
-                <!-- Pending Card -->
-                <div class="xl:self-start xl:basis-1/4 xl:mx-auto bg-white shadow-lg rounded-lg px-4 py-6">
-                    <h2 class="text-base font-semibold text-gray-500 mb-4">Pending Submission</h2>
-                    <div class="text-3xl font-bold">10</div>
-                    <h4 class="text-gray-500 font-medium">50 total</h4>
-                </div>
-
-                <!-- Recent Activities Card -->
-                <div class="xl:basis-3/4 xl:mx-auto bg-white rounded-lg shadow-lg px-4 py-6">
-                    <h2 class="text-base font-semibold text-gray-500 mb-2">Recent Approval</h2>
-                    <div class="border-t border-b py-1">
-                        <p class="text-sm mb-2">UserB's submission with ID #22 was <span
-                                class="text-red-500">Rejected</span></p>
-                        <p class="text-gray-600 text-xs">Action taken 3 weeks ago by Admin </p>
-                    </div>
-                    <div class="border-b py-1">
-                        <p class="text-sm mb-2">UserA's submission with ID #15 was <span
-                                class="text-green-500">Approved</span>
-                        </p>
-                        <p class="text-gray-600 text-xs">Action taken 2 weeks ago by Admin </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <x-card-section></x-card-section>
 
     <!-- Table Section -->
     <section class="py-1">
@@ -132,4 +103,4 @@
             </div>
         </div>
     </section>
-@endsection
+@endsection``
