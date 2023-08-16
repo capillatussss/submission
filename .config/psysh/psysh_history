@@ -1,0 +1,11 @@
+_HiStOrY_V2_
+Status::PENDING;
+Status::APPROVED;
+Status::REJECTED;
+exit
+exit
+$s\040=\040Submission::find(2);
+$s->histories;
+exit
+now()
+exit
